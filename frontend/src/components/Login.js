@@ -8,11 +8,11 @@ export class Login extends Component {
                 <form className="login-form">
                     <div className="form-group">
                         <label htmlFor="exampleInputEmail1">Email address</label>
-                        <input className="form-control" id="exampleInputEmail1" type="email" />
+                        <input className="form-control" id="exampleInputEmail1" type="email" placeholder="Enter your email" />
                     </div>
                     <div className="form-group">
                         <label htmlFor="exampleInputEmail1">Password</label>
-                        <input className="form-control" id="exampleInputEmail1" type="password" />
+                        <input className="form-control" id="exampleInputEmail1" type="password" placeholder="Type your password" />
                     </div>
 
                 </form>
