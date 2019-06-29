@@ -14,7 +14,9 @@ export class Login extends Component {
                         <label htmlFor="exampleInputEmail1">Password</label>
                         <input className="form-control" id="exampleInputEmail1" type="password" placeholder="Type your password" />
                     </div>
-
+                    <div className="form-group">
+                        <input type="submit" className="btn btn-primary" value="Login"/>
+                    </div>
                 </form>
             </div>
         );
