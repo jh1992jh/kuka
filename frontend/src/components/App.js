@@ -9,7 +9,6 @@ class App extends Component {
     return (
       <div className="App">
         <Router>
-          Test
           <Route path="/" exact component={Login} ></Route>
           <Route path="/login" exact component={Login} ></Route>
         </Router>
