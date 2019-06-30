@@ -1,4 +1,4 @@
-.App {
+/*.App {
   text-align: center;
 }
 
@@ -30,4 +30,19 @@
   to {
     transform: rotate(360deg);
   }
+} */
+
+/* Feel free to delete the CSS below, i just added it to make the example to look a bit nicer */
+ul {
+  list-style-type: none;
+  padding: 0;
+}
+.center_container {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+}
+
+.add_user {
+  margin: 3em 0;
 }
