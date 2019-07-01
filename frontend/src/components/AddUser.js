@@ -18,19 +18,25 @@ const AddUser = () => {
   };
 
   return (
-    <div className="add_user">
-      <form className="add_user_form" onSubmit={submitUser}>
+    <form onSubmit={submitUser}>
+      <div className="form-group row">
         <input
           type="text"
+          className="col-md-10 col-sm-12"
           value={username}
           onChange={e => setUsername(e.target.value)}
           placeholder="Username"
         />
-        <button type="submit" disabled={username.length === 0}>
+
+        <button
+          type="submit"
+          className="btn btn-primary col-md-2 col-sm-12"
+          disabled={username.trim().length === 0}
+        >
           Add User
         </button>
-      </form>
-    </div>
+      </div>
+    </form>
   );
 };
 
